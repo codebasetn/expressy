@@ -1,6 +1,11 @@
 #!/bin/sh
+
+echo deploy started
+
 whoami
 cd /workspace/expressy
 git pull
 npm install
 pm2 restart all
+
+echo deploy ended
