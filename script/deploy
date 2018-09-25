@@ -1,5 +1,5 @@
 #!/bin/sh
-
+cd /workspace/expressy
 git pull
 npm install
 pm2 restart all
