@@ -1,4 +1,5 @@
 #!/bin/sh
+whoami
 cd /workspace/expressy
 git pull
 npm install
