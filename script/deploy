@@ -3,7 +3,7 @@
 echo deploy started
 
 whoami
-cd /workspace/expressy
+cd /workspace/hexpressy
 git pull
 npm install
 pm2 restart all
