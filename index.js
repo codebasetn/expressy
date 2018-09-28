@@ -5,7 +5,7 @@ var app = express();
 
 //Respond with "hello back again codebasetn to ci-cd expressy!!!" for requests that hit our root "/"
 app.get('/', function (req, res) {
- res.send('hello back again codebasetn to ci-cd expressy!!!');
+ res.send('hello codebasetn to ci-cd expressy via Travis!');
 });
 
 //listen to port 3000 by default
